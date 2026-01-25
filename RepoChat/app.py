@@ -7,7 +7,7 @@ from src.rag_chain import get_rag_chain
 
 # Page Config
 st.set_page_config(page_title="RepoParser", page_icon="🤖")
-st.title("🤖 RepoParser")
+st.title("RepoParser")
 
 # Initialize Chat History
 if "messages" not in st.session_state:
