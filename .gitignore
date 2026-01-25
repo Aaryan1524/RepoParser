@@ -1,0 +1,14 @@
+# System & Environment
+.DS_Store
+.env
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+
+# Local Data (IMPORTANT: Do not commit cloned repos)
+RepoChat/repo_data/
