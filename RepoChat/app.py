@@ -6,7 +6,7 @@ from src.vector_store import get_vector_store
 from src.rag_chain import get_rag_chain
 
 # Page Config
-st.set_page_config(page_title="RepoParser", page_icon="🤖")
+st.set_page_config(page_title="RepoParser")
 st.title("RepoParser")
 
 # Initialize Chat History
