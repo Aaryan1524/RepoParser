@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+pinecone-client
+openai
+tiktoken
+streamlit
+python-dotenv
+gitpython
+tree-sitter
+tree-sitter-languages
