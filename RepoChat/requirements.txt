@@ -8,6 +8,4 @@ tiktoken
 streamlit
 python-dotenv
 gitpython
-tree-sitter
-tree-sitter-languages
 langchain-pinecone
