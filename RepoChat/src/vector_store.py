@@ -6,9 +6,7 @@ from langchain_pinecone import PineconeVectorStore
 from pinecone import Pinecone, ServerlessSpec
 
 # --- THE FIX: Load the .env file ---
-# Load .env from the RepoChat root (one level up from src)
-env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
-load_dotenv(dotenv_path=env_path)
+load_dotenv()
 
 def get_vector_store(chunks=None):
     """
@@ -72,9 +70,7 @@ def clear_index():
     """
     Clears the entire Pinecone index to ensure a fresh start.
     """
-    # Load .env robustly
-    env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
-    load_dotenv(dotenv_path=env_path)
+    load_dotenv()
     api_key = os.getenv("PINECONE_API_KEY")
     pc = Pinecone(api_key=api_key)
     index_name = "repochat"
