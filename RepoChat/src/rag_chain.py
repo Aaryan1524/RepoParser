@@ -15,7 +15,7 @@ from langchain_core.runnables import RunnablePassthrough, RunnableParallel
 from src.vector_store import get_vector_store
 
 # Load environment variables
-load_dotenv()
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env'))
 
 def format_docs(docs):
     """Convert Documents to a single string."""
