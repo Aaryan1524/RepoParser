@@ -2,7 +2,7 @@ langchain
 langchain-community
 langchain-openai
 langchain-text-splitters
-pinecone-client
+pinecone
 openai
 tiktoken
 streamlit
